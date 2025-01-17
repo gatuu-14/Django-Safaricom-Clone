@@ -1,6 +1,6 @@
 
 from django.contrib import admin
-from .models import UserProfile,Payment,Transaction
+from .models import * # aterik imports all models in my models.py 
 # Register your models here.
 admin.site.register(UserProfile)
 admin.site.register(Payment)
